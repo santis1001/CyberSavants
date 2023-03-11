@@ -10,109 +10,259 @@
 
     <body>
         <header>
-            <h1>Santiago Valenzuela</h2>
-            <figure>
-                <img class="" src="" alt=""/>                
-            </figure>
+            <div class="header_title">
+                <img src="./assets/images/profile_pic.jpg">
+                <h1>Santiago Valenzuela </h1>               
+            </div>
+                        
             <nav>
-                <ul>
-                    <li><a href="#Profile">Profile</a></li>
-                    <li><a href="#Education">Education</a></li>
-                    <li><a href="#Skills">Skills</a></li>
-                    <li><a href="#Work">Work</a></li>
-                    <li><a href="#Employment_History">Employment History</a></li>                   
+                <ul class="container_nav">                    
+                    <li id="am">
+                        <div class="header_list_spacer" id="hcs1">
+                            <div class="header_card_spacer" ></div>
+                        </div>
+                        <div class="header_card" >
+                            <a href="#About_me">
+                                <h3>About Me</h3>
+                            </a>
+                        </div>
+                        <div class="header_list_spacer" id="hcs2">
+                            <div class="header_card_spacer" ></div>
+                        </div>
+                    </li>
+                    
+                    <li id="ed">
+                        <div class="header_list_spacer" id="hcs2_2">
+                            <div class="header_card_spacer" ></div>
+                        </div>
+                        <div class="header_card" >
+                            <a href="#Education">
+                                <h3>Education</h3>
+                            </a>
+                        </div>
+                        <div class="header_list_spacer" id="hcs3">
+                            <div class="header_card_spacer"></div>
+                        </div>  
+                    </li>                    
+                                      
+                    <li id="sk">    
+                        <div class="header_list_spacer" id="hcs3_2">
+                            <div class="header_card_spacer"></div>
+                        </div>                          
+                        <div class="header_card" >
+                            <a href="#Skill">
+                                <h3>Skills</h3>
+                            </a>
+                        </div>
+                        <div class="header_list_spacer" id="hcs4">
+                            <div class="header_card_spacer" ></div>
+                        </div>
+                    </li>
+                    
+                    <li id="wk">
+                        <div class="header_list_spacer" id="hcs4_2">
+                            <div class="header_card_spacer" ></div>
+                        </div>
+                        <div class="header_card">
+                            <a href="#Work">
+                                <h3>Work</h3>
+                            </a>
+                        </div> 
+                        <div class="header_list_spacer" id="hcs5">
+                            <div class="header_card_spacer"></div>
+                        </div>                       
+                    </li>
+                    
+                    <li id="eh">
+                        <div class="header_list_spacer" id="hcs5_2">
+                            <div class="header_card_spacer"></div>
+                        </div>
+                        <div class="header_card">
+                            <a href="#Employment_History">
+                                <h3>Employment History</h3>
+                            </a>
+                        </div>    
+                        <div class="header_list_spacer" id="hcs6">   
+                            <div class="header_card_spacer"></div>
+                        </div>   
+                    </li>    
+                                
                 </ul>
             </nav>
         </header>
         <main>
-            <section>
-                <h2 id="Profile">Profile</h2>
-                <div>
-                    <h3>About me</h3>
-                    <p>As a recent college graduate in Software Engineering, I bring a strong foundation in programming and an eagerness to learn new technologies. Throughout my studies, I have developed my ability to quickly grasp new concepts and technologies, combined with my interest in cutting-edge technologies. I am eager to apply my skills to real-world projects.</p>                    
-                </div>
+            <br>
+            <section class="About_me"> 
+                <div class="subtitle">
+                    <h2 id="About_me">About Me</h2>
+                </div>                
+                <p>As a recent college graduate in Software Engineering, I bring a strong foundation in programming and an eagerness to learn new technologies. Throughout my studies, I have developed my ability to quickly grasp new concepts and technologies, combined with my interest in cutting-edge technologies. I am eager to apply my skills to real-world projects.</p>                                    
             </section>
-            
-            <section>
-                <h2 id="Education">Education</h2>
-                <ul>
+            <br>
+            <section class="Education">
+                <div class="subtitle">
+                    <h2 id="Education">Education</h2>
+                </div>                
+                <ul class="edu_list">
                     <li>
-                        <div>
-                            <h3>Universidad Autonoma de Nuevo Leon</h3>
-                            <ul>
-                                <li>Software Technology Engineer</li>
-                                <li>Aug, 2018 - May, 2023</li>
-                                <li>San Nicolas de los Garza, NL</li>        
-                            </ul>
-                        </div>
+                        <a href="https://www.uanl.mx/">
+                            <div class="uni">
+                                <h3>Universidad Autonoma de Nuevo Leon</h3>
+                                <ul>
+                                    <li>Software Technology Engineer</li>
+                                    <li>Aug, 2018 - May, 2023</li>
+                                    <li>San Nicolas de los Garza, NL</li>        
+                                </ul>
+                            </div>
+                        </a>                        
                     </li>
+                    <br>
                     <li>
-                        <div>
-                            <h3>Harborside Academy</h3>
-                            <ul>
-                                <li>High School</li>
-                                <li>Aug, 2015 -May, 2018</li>
-                                <li>Kenosha, WI</li>
-                            </ul>
-                        </div>
+                        <a href="https://kusd.edu/harborside/">
+                            <div class="high">
+                                <h3>Harborside Academy</h3>
+                                <ul>
+                                    <li>High School</li>
+                                    <li>Aug, 2015 -May, 2018</li>
+                                    <li>Kenosha, WI</li>
+                                </ul>
+                            </div>    
+                        </a>                        
                     </li>
                 </ul>
                 
-            </section>        
-            <section>
-                <h2 id="Skill">Skills</h2>
-                <ul>
-                    <li>C#</li>
-                    <li>C++</li>
-                    <li>SQL</li>
-                    <li>Python</li>
-                    <li>Java</li>
-                </ul>
-            </section>
-            <section>
-                <h2  id="Work"></h2>
-                <ul>
-                    <li>
-                        <a href="">
-                            <div>
-                                <h3>Vaccine Simulation - Java</h3>
-                                <img src="" alt="">
+            </section>     
+            <br>   
+            <section class="Skill">
+                <div class="subtitle">
+                    <h2 id="Skill">Skills</h2>
+                </div> 
+                <div class="container_skill">
+                    <ul>
+                        <li>
+                            <div class="cards_skill">
+                                <img src="./assets/images/csharp.png" alt="C#">
+                                <div class="transparent_mask_skill"></div>
+                                <div class="card_text_skill">
+                                    <h3>C#</h3>
+                                </div>
                             </div>
-                        </a>                
-                    </li>
-                        <a href="">
-                            <div>
-                                <h3>PCB and Electrical Design</h3>
-                                <img src="" alt="">                    
-                            </div>                
-                        </a>                        
-                    </li>
-                    <li>
-                        <a href="">
-                            <div>
-                                <h3>Messaging App - Android Dev</h3>
-                                <img src="" alt="">
-                            </div>                    
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <div>
-                                <h3>Industrial Design</h3>
-                                <img src="" alt="">
-                            </div>    
-                        </a>
-                    </li>
-                </ul>
+                        </li>
+                        <li>
+                            <div class="cards_skill">
+                                <img src="./assets/images/cpp.png" alt="C++">
+                                <div class="transparent_mask_skill"></div>
+                                <div class="card_text_skill">
+                                    <h3>C++</h3>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="cards_skill">
+                                <img src="./assets/images/unity.png" alt="Unity">
+                                <div class="transparent_mask_skill"></div>
+                                <div class="card_text_skill">
+                                    <h3>Unity</h3>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="cards_skill">
+                                <img src="./assets/images/python.png" alt="Python">
+                                <div class="transparent_mask_skill"></div>
+                                <div class="card_text_skill">
+                                    <h3>Python</h3>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="cards_skill">
+                                <img src="./assets/images/java.png" alt="Java">
+                                <div class="transparent_mask_skill"></div>
+                                <div class="card_text_skill">
+                                    <h3>Java</h3>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="cards_skill">
+                                <img src="./assets/images/androidstudio.png" alt="androidstudio">
+                                <div class="transparent_mask_skill"></div>
+                                <div class="card_text_skill">
+                                    <h3>Android Studio</h3>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>                               
             </section>
-            <section>
-                <h2 id="Employment_History">Employment History</h2>
-                <ul>
+            <br>
+            <section class="Work">
+                <div class="subtitle">
+                    <h2  id="Work">Work</h2>
+                </div>
+                <div class="container_work">
+                    <ul>
+                        <li>
+                            <a href="./assets/pdf/Vaccine_sim.pdf">
+                                <div class="cards_work" id="vacc">
+                                    <!-- <img src="./assets/images/vaccine_sim.JPG" alt="Java"> -->
+                                    <div class="transparent_mask_work"></div>
+                                    <div class="card_text_work">
+                                        <h3>Vaccine Simulation - Java</h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>       
+                        <li>
+                            <a href="./assets/pdf/PCB_Design.pdf">
+                                <div class="cards_work" id="pcb">
+                                    <!-- <img src="./assets/images/PCB.png" alt="Proteus"> -->
+                                    <div class="transparent_mask_work"></div>
+                                    <div class="card_text_work">
+                                        <h3>PCB and Electrical Design</h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>       
+                        <li>
+                            <a href="./assets/pdf/AndroidApp.pdf">
+                                <div class="cards_work" id="anddev">
+                                    <!-- <img src="./assets/images/And_Dev.png" alt="Android Studio"> -->
+                                    <div class="transparent_mask_work"></div>
+                                    <div class="card_text_work">
+                                        <h3>Messaging App - Android Dev</h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>       
+                        <li>
+                            <a href="./assets/pdf/Industrial_Design.PDF">
+                                <div class="cards_work" id="indes">
+                                    <!-- <img src="./assets/images/solidworks.png" alt="SolidWorks"> -->
+                                    <div class="transparent_mask_work"></div>
+                                    <div class="card_text_work">
+                                        <h3>Industrial Design</h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>                      
+                    </ul>
+                </div>
+                
+            </section>
+            <br>
+            <section class="Emp_History">
+                <div class="subtitle">
+                    <h2 id="Employment_History">Employment History</h2>
+                </div>
+                
+                <ul class="emp_list">
                     <li>
                         <div>
                             <h3>Pharmacy Cashier</h3>                    
                             <p>Oct 2019 - Aug 2020</p>
-                            <ul>
+                            <ul class="emp_card_list">
                                 <li>Operating a cash register or other point-of-sale system to process customer transactions</li>
                                 <li>Accepting payment from customers in the form of cash, credit cards, and other forms of payment</li>
                                 <li>Counting cash in the drawer at the beginning and end of each shift</li>
@@ -121,11 +271,13 @@
                             </ul>
                         </div>                        
                     </li>
+                    <br>
+
                     <li>
                         <div>
                             <h3>System maintenance</h3>                    
                             <p>Aug 2020 - Dec 2022</p>
-                            <ul>
+                            <ul class="emp_card_list">
                                 <li>Cleaning and maintaining computer equipment, including desktops, laptops, and other hardware</li>
                                 <li>Replacing components that are no longer functioning properly or have reached the end of their useful life</li>
                                 <li>Monitoring the security camera system to ensure that it is functioning properly and providing clear and reliable footage</li>
@@ -134,18 +286,36 @@
                             </ul>
                         </div>
                     </li>
+                    <br>
                     <li>
                         <div>
                             <h3>Design and Development of Digital Educational Resources</h3>                    
                             <p>Dec 2022 - Current</p>
-                            <p>I specialize in the design and development of digital educational resources, constantly seeking to enhance my skills and knowledge in the field. Utilizing technologies such as Unity, Our team aim to create innovative and immersive virtual reality experiences for educational purposes.</p>
+                            <div class="emp_card_list">
+                                <p >I specialize in the design and development of digital educational resources, constantly seeking to enhance my skills and knowledge in the field. Utilizing technologies such as Unity, Our team aim to create innovative and immersive virtual reality experiences for educational purposes.</p>
+                            </div>
                         </div>
                     </li>
                 </ul>                                        
             </section>
         </main>
+        <br>
         <footer>
-            
+            <h2>Contact</h2>
+            <ul class="contact">                            
+                <li>
+                    <a href="tel:+526311021568">Phone: +52-631-102-1568</a>
+                </li>    
+                <li>
+                    <a href="mailto:santis1001@gmail.com">Email</a>
+                </li>
+                <li>
+                    <a href="https://github.com/santis1001">Github</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/santiago-valenzuela-/">LinkedIn</a>
+                </li>
+            </ul>
         </footer>
     </body>
 </html>
