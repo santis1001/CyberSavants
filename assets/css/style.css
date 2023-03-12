@@ -27,11 +27,15 @@ a{
 }
 /*  header */
 header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     display: flex;
     align-items: center;
     background-color:var(--theme);
     color: var(--white);
-   
+    z-index: 5;
 }
 /* Pic and h1 space */
 header .header_title{
@@ -61,6 +65,7 @@ header .header_title{
 
 /* Navigation  */
 nav{
+    
     display: flex;
     width: 65%;
     height: 68px;    
@@ -195,6 +200,12 @@ nav a{
     margin-right: 5%;
     text-align: right;
 }
+
+
+.start{
+    height: 68px;    
+}
+
 
 /* About me Section */
 .About_me{
