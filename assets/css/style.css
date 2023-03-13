@@ -578,7 +578,9 @@ footer li:hover{
         margin-left: 10%;
         padding-top: 2%;
     }
-
+    .start{
+        height: 136px;;    
+    }
   }
   @media screen and (max-width:  600px) {
     footer{
@@ -586,8 +588,11 @@ footer li:hover{
     }
     
     footer ul{
+        display: block;
+
         width: 100%;
         padding-bottom: 2%;
     }
 
+    
   }
