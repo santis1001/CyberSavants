@@ -189,7 +189,9 @@ nav a{
 .container_nav #eh:hover #hcs6 div{
     border-radius: 0px 0px 0px 20px;
 } 
-
+main{
+    margin-top: 68px;
+}
 .subtitle{
     width: 32%;
     flex-direction: row-reverse;
@@ -200,18 +202,11 @@ nav a{
     color: var(--pink);
     margin-right: 5%;
     text-align: right;
-}
-
-
-.start{
-    height: 68px;    
-}
-
+} 
 
 /* About me Section */
 .About_me{
     display: flex;       
-
 }
 
 .About_me p{
@@ -341,7 +336,8 @@ nav a{
     flex-wrap: wrap;
     
 }
-.container_work ul{
+
+.container_work .grid{
     position: relative;
     width: 100%;
     display: grid;
@@ -350,7 +346,7 @@ nav a{
     grid-gap: 10px;
     list-style: none;
 }
-.container_work ul li{
+.container_work .grid li{
     position: relative;
     text-align: left;
 }
@@ -363,12 +359,14 @@ nav a{
     transition: border 0.5s ease;
     background-size: 110%;
 
+}#pcb{
+    background-image: url("../images/PCB.png");
 }
 #vacc{
     background-image: url("../images/vaccine_sim.JPG");
 }
-#pcb{
-    background-image: url("../images/PCB.png");
+#bus{
+    background-image: url("../images/Bus_app.JPG");
 }
 #anddev{
     background-image: url("../images/And_Dev.png");
@@ -400,6 +398,39 @@ nav a{
     transition: background-color 0.5s ease;
 } 
 
+.workbanner{
+    position: relative;
+    width: 100%;
+    height: 33%;
+    margin-bottom: 10px;
+    grid-gap: 10px;
+    list-style: none;
+}
+.workbannerback{
+    position: relative;
+    text-align: left;
+}
+.workbannerback .cards_work{
+    position: relative;
+    width: 100%;
+    padding-bottom: 50%;
+    border: 4px solid var(--blue);
+    transition: border 0.5s ease;
+    background-size: 110%;
+}
+.workbanner:hover  .cards_work>img{
+    background-color: var(--light_gray);
+}
+.workbanner:hover  .card_text_work{
+    background-color: var(--pink);
+}
+.workbannerback .cards_work:hover .transparent_mask_work{
+    background-color: #ffffff00;
+}
+.workbanner:hover .cards_work{    
+    background-color: var(--light_gray);
+    border: 4px solid var(--pink);
+}
 
 .container_work li:hover  .cards_work>img{
     background-color: var(--light_gray);
@@ -530,9 +561,9 @@ footer li:hover{
         height: 32px;
     }
     .dropmenu h3{
-        margin-left: 5px;
-        margin-top: 5px;
-        margin-bottom: 5px;
+        height: 100%;
+        padding: 1%;
+        margin: 5px;
     }
     nav{
         display: block;
